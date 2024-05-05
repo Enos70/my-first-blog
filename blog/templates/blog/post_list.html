@@ -17,6 +17,8 @@
         <main class="container">
             <div class="row">
                 <div class="col">
+                    {% extends 'blog/base.html' %}
+
                     {% block content %}
                         {% for post in posts %}
                             <article class="post">
